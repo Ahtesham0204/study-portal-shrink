@@ -60,7 +60,7 @@ const SectionHeader = ({
       marginBottom: "1.5rem",
     }}
   >
-    <Blobs />
+    <DecoIcons />
     <div style={{ position: "relative", zIndex: 1 }}>
       {onBack && (
         <div style={{ marginBottom: 12 }}>
