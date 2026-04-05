@@ -188,7 +188,7 @@ export default function BrowsePage() {
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(155px, 1fr))",
+              gridTemplateColumns: "repeat(4, 1fr)",
               gap: 14,
             }}
           >
