@@ -1,12 +1,15 @@
 import { useState, useEffect } from "react";
 import { BRANCHES, SEMS, getBranch } from "@/lib/data";
 import { fbLoadPapers, embedUrl, directLink } from "@/lib/firebase";
+import { FileText, BookOpen, ClipboardList, ScrollText } from "lucide-react";
 
-/* ── tiny reusable blob layer ── */
-const Blobs = () => (
+/* ── decorative icon layer for section headers ── */
+const DecoIcons = () => (
   <>
-    <div style={{ position: "absolute", right: -36, top: -14, width: 120, height: 120, background: "#d9ecff", opacity: 0.45, borderRadius: "46% 54% 36% 64% / 38% 34% 66% 62%" }} />
-    <div style={{ position: "absolute", left: -30, bottom: -20, width: 100, height: 100, background: "#dff8f4", opacity: 0.4, borderRadius: "53% 47% 61% 39% / 40% 52% 48% 60%" }} />
+    <FileText style={{ position: "absolute", right: 20, top: 10, opacity: 0.08, color: "#203f7f" }} size={48} strokeWidth={1.5} />
+    <BookOpen style={{ position: "absolute", left: 16, bottom: 8, opacity: 0.07, color: "#203f7f" }} size={40} strokeWidth={1.5} />
+    <ClipboardList style={{ position: "absolute", right: 80, bottom: 6, opacity: 0.06, color: "#203f7f" }} size={36} strokeWidth={1.5} />
+    <ScrollText style={{ position: "absolute", left: 100, top: 8, opacity: 0.06, color: "#203f7f" }} size={32} strokeWidth={1.5} />
   </>
 );
 
@@ -57,7 +60,7 @@ const SectionHeader = ({
       marginBottom: "1.5rem",
     }}
   >
-    <Blobs />
+    <DecoIcons />
     <div style={{ position: "relative", zIndex: 1 }}>
       {onBack && (
         <div style={{ marginBottom: 12 }}>
