@@ -163,7 +163,7 @@ export default function HomePage() {
               style={{
                 margin: 0,
                 fontFamily: "'Space Grotesk', sans-serif",
-                fontSize: "clamp(2.1rem, 4vw, 3.5rem)",
+                fontSize: "clamp(1.5rem, 3vw, 2.5rem)",
                 lineHeight: 1,
                 color: "#203f7f",
                 fontWeight: 800,
