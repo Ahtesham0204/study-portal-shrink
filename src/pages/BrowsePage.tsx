@@ -5,12 +5,8 @@ import { fbLoadPapers, embedUrl, directLink } from "@/lib/firebase";
 /* ── tiny reusable blob layer ── */
 const Blobs = () => (
   <>
-    <div style={{ position: "absolute", left: -40, top: -20, width: 140, height: 140, background: "#d9ecff", opacity: 0.6, borderRadius: "46% 54% 36% 64% / 38% 34% 66% 62%" }} />
-    <div style={{ position: "absolute", left: 10, top: 14, width: 90, height: 90, background: "#e9f4ff", opacity: 0.8, borderRadius: "54% 46% 65% 35% / 48% 35% 65% 52%" }} />
-    <div style={{ position: "absolute", right: -36, top: -14, width: 150, height: 150, background: "#d9f6f7", opacity: 0.55, borderRadius: "42% 58% 39% 61% / 60% 35% 65% 40%" }} />
-    <div style={{ position: "absolute", right: 8, top: 24, width: 95, height: 95, background: "#e9faf9", opacity: 0.75, borderRadius: "57% 43% 64% 36% / 38% 57% 43% 62%" }} />
-    <div style={{ position: "absolute", left: "40%", bottom: -30, width: 120, height: 120, background: "#dff8f4", opacity: 0.5, borderRadius: "53% 47% 61% 39% / 40% 52% 48% 60%" }} />
-    <div style={{ position: "absolute", right: "20%", bottom: -20, width: 100, height: 100, background: "#e0e8ff", opacity: 0.45, borderRadius: "60% 40% 55% 45% / 45% 55% 45% 55%" }} />
+    <div style={{ position: "absolute", right: -36, top: -14, width: 120, height: 120, background: "#d9ecff", opacity: 0.45, borderRadius: "46% 54% 36% 64% / 38% 34% 66% 62%" }} />
+    <div style={{ position: "absolute", left: -30, bottom: -20, width: 100, height: 100, background: "#dff8f4", opacity: 0.4, borderRadius: "53% 47% 61% 39% / 40% 52% 48% 60%" }} />
   </>
 );
 
