@@ -169,6 +169,8 @@ export default function SyllabusPage() {
   const pageWrap: React.CSSProperties = {
     background: "#f7fbff",
     minHeight: "60vh",
+    position: "relative",
+    overflow: "hidden",
   };
   const container: React.CSSProperties = {
     maxWidth: 760,
