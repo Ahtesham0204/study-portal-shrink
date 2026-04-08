@@ -261,13 +261,14 @@ export default function SyllabusPage() {
 
   /* ── Semester tables for selected branch ── */
   return (
-      <div style={pageWrap}>
-        {/* Decorative background blobs */}
-        <div style={{ position: "absolute", left: -60, top: 180, width: 200, height: 200, background: "#d9ecff", opacity: 0.35, borderRadius: "46% 54% 36% 64% / 38% 34% 66% 62%", pointerEvents: "none" }} />
-        <div style={{ position: "absolute", right: -40, top: 320, width: 160, height: 160, background: "#dff8f4", opacity: 0.3, borderRadius: "53% 47% 61% 39% / 40% 52% 48% 60%", pointerEvents: "none" }} />
-        <div style={{ position: "absolute", left: 20, top: 550, width: 130, height: 130, background: "#e9faf9", opacity: 0.3, borderRadius: "57% 43% 64% 36% / 38% 57% 43% 62%", pointerEvents: "none" }} />
-        <div style={{ position: "absolute", right: -30, top: 700, width: 180, height: 180, background: "#d9f6f7", opacity: 0.25, borderRadius: "42% 58% 39% 61% / 60% 35% 65% 40%", pointerEvents: "none" }} />
-        <div style={{ position: "absolute", left: -50, top: 950, width: 150, height: 150, background: "#e8f3ff", opacity: 0.3, borderRadius: "54% 46% 65% 35% / 48% 35% 65% 52%", pointerEvents: "none" }} />
+    <div style={pageWrap}>
+      {/* Decorative background blobs */}
+      <div style={{ position: "absolute", left: -60, top: 180, width: 200, height: 200, background: "#d9ecff", opacity: 0.35, borderRadius: "46% 54% 36% 64% / 38% 34% 66% 62%", pointerEvents: "none" }} />
+      <div style={{ position: "absolute", right: -40, top: 320, width: 160, height: 160, background: "#dff8f4", opacity: 0.3, borderRadius: "53% 47% 61% 39% / 40% 52% 48% 60%", pointerEvents: "none" }} />
+      <div style={{ position: "absolute", left: 20, top: 550, width: 130, height: 130, background: "#e9faf9", opacity: 0.3, borderRadius: "57% 43% 64% 36% / 38% 57% 43% 62%", pointerEvents: "none" }} />
+      <div style={{ position: "absolute", right: -30, top: 700, width: 180, height: 180, background: "#d9f6f7", opacity: 0.25, borderRadius: "42% 58% 39% 61% / 60% 35% 65% 40%", pointerEvents: "none" }} />
+      <div style={{ position: "absolute", left: -50, top: 950, width: 150, height: 150, background: "#e8f3ff", opacity: 0.3, borderRadius: "54% 46% 65% 35% / 48% 35% 65% 52%", pointerEvents: "none" }} />
+      <div style={container}>
         <PdfModal pdfView={pdfView} onClose={() => setPdfView(null)} />
         <SectionHeader
           title={`${b?.icon} ${b?.name} — Syllabus`}
