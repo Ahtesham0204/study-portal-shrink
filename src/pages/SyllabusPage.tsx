@@ -255,7 +255,6 @@ export default function SyllabusPage() {
               </div>
             ))}
           </div>
-          </div>
         </div>
       </div>
     );
