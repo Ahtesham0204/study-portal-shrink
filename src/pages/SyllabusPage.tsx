@@ -188,6 +188,7 @@ export default function SyllabusPage() {
         <div style={{ position: "absolute", left: 20, top: 550, width: 130, height: 130, background: "#e9faf9", opacity: 0.3, borderRadius: "57% 43% 64% 36% / 38% 57% 43% 62%", pointerEvents: "none" }} />
         <div style={{ position: "absolute", right: -30, top: 700, width: 180, height: 180, background: "#d9f6f7", opacity: 0.25, borderRadius: "42% 58% 39% 61% / 60% 35% 65% 40%", pointerEvents: "none" }} />
         <div style={{ position: "absolute", left: -50, top: 950, width: 150, height: 150, background: "#e8f3ff", opacity: 0.3, borderRadius: "54% 46% 65% 35% / 48% 35% 65% 52%", pointerEvents: "none" }} />
+        <div style={{ ...container, position: "relative", zIndex: 1 }}>
           <PdfModal pdfView={pdfView} onClose={() => setPdfView(null)} />
           <SectionHeader
             title="📋 Syllabus"
