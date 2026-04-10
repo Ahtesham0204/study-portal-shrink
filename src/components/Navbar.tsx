@@ -3,7 +3,7 @@ import { Home, FolderOpen, BookOpen, ClipboardList, FileText } from "lucide-reac
 
 const tabs = [
   { path: "/", label: "Home", icon: Home },
-  { path: "/browse", label: "Browse", icon: FolderOpen },
+  { path: "/browse", label: "Answer Paper", icon: FolderOpen },
   { path: "/manual", label: "Manual", icon: BookOpen },
   { path: "/syllabus", label: "Syllabus", icon: ClipboardList },
   { path: "/manual-pdf", label: "Manual PDF", icon: FileText },
