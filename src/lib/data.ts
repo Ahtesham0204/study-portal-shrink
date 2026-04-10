@@ -20,32 +20,32 @@ export interface Paper {
 }
 
 export const BRANCHES: Branch[] = [
-  { code: 'AU', name: 'Automobile Engineering', short: 'Auto', icon: '🚗' },
-  { code: 'CE', name: 'Civil Engineering', short: 'Civil', icon: '🏗️' },
-  { code: 'CH', name: 'Chemical Engineering', short: 'Chemical', icon: '⚗️' },
-  { code: 'CO', name: 'Computer Engineering', short: 'Computer', icon: '💻' },
-  { code: 'EE', name: 'Electrical Engineering', short: 'Electrical', icon: '⚡' },
-  { code: 'ET', name: 'Electronics & Telecommunication', short: 'E&TC', icon: '📶' },
-  { code: 'ME', name: 'Mechanical Engineering', short: 'Mechanical', icon: '⚙️' },
+  { code: 'AU', name: 'Automobile Engineering', short: 'Auto', icon: '🚘' },
+  { code: 'CE', name: 'Civil Engineering', short: 'Civil', icon: '🏛️' },
+  { code: 'CH', name: 'Chemical Engineering', short: 'Chemical', icon: '🧪' },
+  { code: 'CO', name: 'Computer Engineering', short: 'Computer', icon: '🖥️' },
+  { code: 'EE', name: 'Electrical Engineering', short: 'Electrical', icon: '🔌' },
+  { code: 'ET', name: 'Electronics & Telecommunication', short: 'E&TC', icon: '📡' },
+  { code: 'ME', name: 'Mechanical Engineering', short: 'Mechanical', icon: '🔧' },
 ];
 
 export const MANUAL_BRANCHES = [
-  { code: 'CO', name: 'Computer Engineering', icon: '💻' },
-  { code: 'CE', name: 'Civil Engineering', icon: '🏗️' },
-  { code: 'ME', name: 'Mechanical Engineering', icon: '⚙️' },
-  { code: 'EJ', name: 'Electronics Engineering', icon: '🔌' },
-  { code: 'EE', name: 'Electrical Engineering', icon: '⚡' },
+  { code: 'CO', name: 'Computer Engineering', icon: '🖥️' },
+  { code: 'CE', name: 'Civil Engineering', icon: '🏛️' },
+  { code: 'ME', name: 'Mechanical Engineering', icon: '🔧' },
+  { code: 'EJ', name: 'Electronics Engineering', icon: '📡' },
+  { code: 'EE', name: 'Electrical Engineering', icon: '🔌' },
   { code: 'AI', name: 'Artificial Intelligence', icon: '🤖' },
 ];
 
 export const SYLLABUS_BRANCHES = [
-  { code: 'CO', name: 'Computer Engineering', icon: '💻' },
-  { code: 'CH', name: 'Chemical Engineering', icon: '⚗️' },
-  { code: 'AU', name: 'Automobile Engineering', icon: '🚗' },
-  { code: 'CE', name: 'Civil Engineering', icon: '🏗️' },
-  { code: 'ME', name: 'Mechanical Engineering', icon: '⚙️' },
-  { code: 'EE', name: 'Electrical Engineering', icon: '⚡' },
-  { code: 'ET', name: 'Electronics & Telecommunication', icon: '📶' },
+  { code: 'CO', name: 'Computer Engineering', icon: '🖥️' },
+  { code: 'CH', name: 'Chemical Engineering', icon: '🧪' },
+  { code: 'AU', name: 'Automobile Engineering', icon: '🚘' },
+  { code: 'CE', name: 'Civil Engineering', icon: '🏛️' },
+  { code: 'ME', name: 'Mechanical Engineering', icon: '🔧' },
+  { code: 'EE', name: 'Electrical Engineering', icon: '🔌' },
+  { code: 'ET', name: 'Electronics & Telecommunication', icon: '📡' },
 ];
 
 export const SEMS = [1, 2, 3, 4, 5, 6];

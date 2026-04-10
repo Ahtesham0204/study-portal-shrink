@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
-import heroIllustration from "@/assets/hero-illustration.png";
-import folderIcon from "@/assets/folder-icon.png";
-import modelAnswerIcon from "@/assets/model-answer-icon.png";
+import heroIllustration from "@/assets/hero-illustration-new.png";
+import iconModelAnswer from "@/assets/icon-model-answer.png";
+import iconPracticalManual from "@/assets/icon-practical-manual.png";
+import iconSyllabus from "@/assets/icon-syllabus.png";
+import iconManualPdf from "@/assets/icon-manual-pdf.png";
 
 const features = [
   {
@@ -11,7 +13,7 @@ const features = [
       "Download semester-wise model answer papers for all MSBTE diploma branches. Year-wise papers with full solutions.",
     link: "/browse",
     linkLabel: "Browse Papers →",
-    icon: modelAnswerIcon,
+    icon: iconModelAnswer,
     iconBackground: "linear-gradient(180deg, #e9fff7, #e7fef1)",
     badgeBackground: "#e7f8ee",
     badgeColor: "#4c8f75",
@@ -23,7 +25,7 @@ const features = [
       "Complete practical manual solutions for lab experiments. Subject-wise organized for easy access during practical exams.",
     link: "/manual",
     linkLabel: "View Manuals →",
-    icon: folderIcon,
+    icon: iconPracticalManual,
     iconBackground: "linear-gradient(180deg, #e8f7ff, #e1f3ff)",
     badgeBackground: "#e1f0ff",
     badgeColor: "#2d77d0",
@@ -35,7 +37,7 @@ const features = [
       "Official K-Scheme syllabus for all branches. Subject codes, units, and course outcomes — semester 1 to 6.",
     link: "/syllabus",
     linkLabel: "View Syllabus →",
-    emoji: "📋",
+    icon: iconSyllabus,
     iconBackground: "linear-gradient(180deg, #fff0ee, #ffe8e4)",
     badgeBackground: "#ffe8e4",
     badgeColor: "#c44b3a",
@@ -47,7 +49,7 @@ const features = [
       "Downloadable subject manual PDFs. Save them offline and access anytime without internet connection.",
     link: "/manual-pdf",
     linkLabel: "Download PDFs →",
-    emoji: "📥",
+    icon: iconManualPdf,
     iconBackground: "linear-gradient(180deg, #fff7dc, #fff1c8)",
     badgeBackground: "#fff0cc",
     badgeColor: "#ad7a18",
@@ -203,7 +205,7 @@ export default function HomePage() {
                   fontWeight: 800,
                 }}
               >
-                <img src={folderIcon} alt="Browse papers" width={18} height={18} />
+                <img src={iconModelAnswer} alt="Browse papers" width={18} height={18} />
                 Browse Papers
               </Link>
               <Link
@@ -295,11 +297,7 @@ export default function HomePage() {
                     flexShrink: 0,
                   }}
                 >
-                  {(feature as any).icon ? (
-                    <img src={(feature as any).icon} alt="" width={32} height={32} />
-                  ) : (
-                    <span style={{ fontSize: 24 }}>{(feature as any).emoji}</span>
-                  )}
+                  <img src={feature.icon} alt="" width={32} height={32} />
                 </div>
                 <div>
                   <h3 style={{ margin: 0, fontFamily: "'Space Grotesk', sans-serif", color: "#203f7f", fontSize: 15, fontWeight: 800 }}>
