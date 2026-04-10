@@ -73,16 +73,18 @@ export default function Navbar() {
               >
                 <div
                   style={{
-                    width: 52,
-                    height: 40,
-                    borderRadius: 14,
+                    width: 44,
+                    height: 44,
+                    borderRadius: "50%",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                     background: active ? "linear-gradient(180deg, #dbeafe, #eff6ff)" : "transparent",
+                    boxShadow: active ? "0 2px 8px rgba(59, 130, 246, 0.15)" : "none",
+                    transition: "all 0.2s ease",
                   }}
                 >
-                  <Icon size={26} strokeWidth={1.8} color={active ? "#5b8fd7" : "#f2b740"} fill={active ? "#dbeafe" : "#fff5d6"} />
+                  <Icon size={24} strokeWidth={1.6} color={active ? "#3b82f6" : "#e5a21b"} fill={active ? "#bfdbfe" : "#fef3c7"} />
                 </div>
                 <span style={{ fontSize: 13, lineHeight: 1, whiteSpace: "nowrap" }}>{tab.label}</span>
               </Link>
