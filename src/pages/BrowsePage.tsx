@@ -179,7 +179,7 @@ export default function BrowsePage() {
         <div style={container}>
           {PdfModal}
           <SectionHeader
-            title="Browse by Branch"
+            title="Model Answer Paper"
             subtitle="Select your engineering branch to find model answer papers"
           />
           <div

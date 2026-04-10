@@ -15,7 +15,7 @@ export default function Footer() {
           <div>
             <p style={{ color: "rgba(255,255,255,.4)", fontSize: ".75rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "1px", marginBottom: ".875rem" }}>Navigation</p>
             {[
-              ["/", "Home"], ["/browse", "Browse"], ["/manual", "Manual"],
+              ["/", "Home"], ["/browse", "Model Answer Paper"], ["/manual", "Manual"],
               ["/syllabus", "Syllabus"], ["/manual-pdf", "Manual PDF"], ["/contact", "Contact"],
             ].map(([p, l]) => (
               <Link key={p} to={p} style={{ display: "block", color: "#64748b", fontSize: ".875rem", marginBottom: ".5rem", textDecoration: "none" }}>{l}</Link>
